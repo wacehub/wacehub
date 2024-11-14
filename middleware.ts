@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { get } from 'lib/feature-flags'
+import { get } from './lib/feature-flags'
 
 export const config = {
   matcher: '/',
